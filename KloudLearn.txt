@@ -16,10 +16,7 @@ public class KloudReal {
 								
 				driver.findElement(By.partialLinkText("Sign up free")).click();
 				
-				/*WebElement element1 = driver.findElement(By.id("button[@id='authlogin-register-btn']"));
-				JavascriptExecutor executor = (JavascriptExecutor)driver;
-				executor.executeScript("arguments[0].click();", element1);*/
-				
+	
 				driver.findElementByTagName("button").click();
 				driver.findElement(By.id("org_email")).sendKeys("poojaaithal9@gmail.com");
 				driver.findElement(By.id("password")).sendKeys("Pooja27@27");
